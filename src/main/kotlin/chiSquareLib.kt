@@ -7,6 +7,6 @@ import kotlin.time.ExperimentalTime
 
 @OptIn(ExperimentalTime::class)
 fun theChiSquareTestLib(inputData: InputData): Decision {
-    println("InputData before call to the imaginary lib: $inputData, ${Clock.System.now()}")
+    println("InputData: $inputData, ${Clock.System.now()}")
     return Decision(1, 0, "Not able to give a proper decision.")
 }

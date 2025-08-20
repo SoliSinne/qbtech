@@ -1,4 +1,4 @@
-Example of a curl request:
+Example of a curl request:<br>
 curl -i --header "Content-Type: application/json" \
   --request POST \
   --data '{"chiLevel":5,"documentData":"abc1def2ghi3jkl4mno5"}' \
